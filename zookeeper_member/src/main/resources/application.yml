@@ -1,0 +1,9 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: zk-member
+  cloud:
+    zookeeper:
+      #\u6CE8\u518C\u5230zookeeper\u7684\u5730\u5740
+      connect-string: 192.168.5.33:2181

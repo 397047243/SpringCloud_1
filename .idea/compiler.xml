@@ -10,10 +10,12 @@
         <module name="eureka-server1" />
         <module name="member" />
         <module name="SpringCloud_1" />
+        <module name="zookeeper_member" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server2" target="1.8" />
+      <module name="zookeeper-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
