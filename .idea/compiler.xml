@@ -10,7 +10,9 @@
         <module name="eureka-server1" />
         <module name="member" />
         <module name="SpringCloud_1" />
+        <module name="zookeeper-order" />
         <module name="zookeeper_member" />
+        <module name="zookeeper_member2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

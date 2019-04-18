@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.xrz.SpringCloud_1</groupId>
-    <artifactId>zookeeper_member</artifactId>
+    <artifactId>zookeeper-order</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>zookeeper_member</name>
+    <name>zookeeper-order</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
