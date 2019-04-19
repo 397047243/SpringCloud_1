@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00ed1cb8-9a61-4a14-a383-f08a94e9b79d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/zookeeper_member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper_member/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper_member/src/main/java/cn/xrz/springcloud_1/zookeeper_member/ZookeeperMemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper_member/src/main/java/cn/xrz/springcloud_1/zookeeper_member/ZookeeperMemberApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper_member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper_member/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/cn/xrz/springcloud_1/member/api/controller/MemberApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/cn/xrz/springcloud_1/member/api/controller/MemberApiController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +14,7 @@
     <ignored path="$PROJECT_DIR$/zookeeper_member/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper_member2/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-order/target/" />
+    <ignored path="$PROJECT_DIR$/order/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +39,13 @@
     <session id="1199298730">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,38 +54,38 @@
           <entry key="124" value="1" />
           <entry key="125" value="1" />
           <entry key="class" value="2" />
-          <entry key="java" value="20" />
+          <entry key="java" value="32" />
           <entry key="pom" value="2" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="16" />
-          <entry key="yml" value="17" />
+          <entry key="xml" value="18" />
+          <entry key="yml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="32" />
           <entry key="Properties" value="1" />
           <entry key="Terminal Session" value="2" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="18" />
-          <entry key="YAML" value="17" />
+          <entry key="XML" value="20" />
+          <entry key="YAML" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="502" />
-          <entry key="xml" value="243" />
-          <entry key="yml" value="748" />
+          <entry key="java" value="761" />
+          <entry key="xml" value="262" />
+          <entry key="yml" value="754" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="502" />
+          <entry key="JAVA" value="761" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="243" />
-          <entry key="YAML" value="748" />
+          <entry key="XML" value="262" />
+          <entry key="YAML" value="754" />
         </counts>
       </usages-collector>
     </session>
@@ -94,33 +93,73 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper_member/src/main/java/cn/xrz/springcloud_1/zookeeper_member/ZookeeperMemberApplication.java">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/cn/xrz/springcloud_1/eurekaserver/EurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="110">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/java/cn/xrz/springcloud_1/eurekaserver1/EurekaServer1Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member/src/main/java/cn/xrz/springcloud_1/member/MemberApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/src/main/java/cn/xrz/springcloud_1/order/OrderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/order/src/main/java/cn/xrz/springcloud_1/order/feign/MemberFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper_member2/src/main/java/cn/xrz/springcloud_1/zookeeper_member2/ZookeeperMemberApplication2.java">
+        <entry file="file://$PROJECT_DIR$/order/src/main/java/cn/xrz/springcloud_1/order/api/controller/OrderApiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="374">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zookeeper-order/src/main/java/cn/xrz/springcloud_1/zookeeperorder/ZookeeperOrderApplication.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="176">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -130,6 +169,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -143,7 +183,6 @@
         <option value="$PROJECT_DIR$/eureka-server/src/main/java/cn/xrz/springcloud_1/eurekaserver/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/member/pom.xml" />
-        <option value="$PROJECT_DIR$/member/src/main/java/cn/xrz/springcloud_1/member/api/controller/MemberApiController.java" />
         <option value="$PROJECT_DIR$/member/src/main/java/cn/xrz/springcloud_1/member/MemberApplication.java" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server2/pom.xml" />
@@ -163,6 +202,12 @@
         <option value="$PROJECT_DIR$/zookeeper_member/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/zookeeper_member/src/main/java/cn/xrz/springcloud_1/zookeeper_member/ZookeeperMemberApplication.java" />
         <option value="$PROJECT_DIR$/zookeeper_member2/src/main/java/cn/xrz/springcloud_1/zookeeper_member2/ZookeeperMemberApplication2.java" />
+        <option value="$PROJECT_DIR$/member/src/main/java/cn/xrz/springcloud_1/member/api/controller/MemberApiController.java" />
+        <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/order/src/main/java/cn/xrz/springcloud_1/order/feign/MemberFeign.java" />
+        <option value="$PROJECT_DIR$/order/src/main/java/cn/xrz/springcloud_1/order/OrderApplication.java" />
+        <option value="$PROJECT_DIR$/order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/order/src/main/java/cn/xrz/springcloud_1/order/api/controller/OrderApiController.java" />
       </list>
     </option>
   </component>
@@ -329,7 +374,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="47" />
     <option name="width" value="1347" />
     <option name="height" value="730" />
@@ -342,6 +387,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,42 +399,42 @@
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-order" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-order" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-order" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-order" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeperorder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-order" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -395,42 +442,42 @@
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -438,31 +485,25 @@
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member2" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member2" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member2" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -470,16 +511,89 @@
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member2" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member2" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper_member2" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_1" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -488,8 +602,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -505,7 +617,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -513,11 +625,11 @@
       <recent name="cn.xrz.springcloud_1.zookeeper_member2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Y2_Plus\SpringCloud_1\order\src\main\resources" />
       <recent name="D:\Y2_Plus\SpringCloud_1\zookeeper-order\src\main\resources" />
       <recent name="D:\Y2_Plus\SpringCloud_1\zookeeper_member2\src\main\resources" />
       <recent name="D:\Y2_Plus\SpringCloud_1\eureka-server1\src\main\resources" />
       <recent name="D:\Y2_Plus\SpringCloud_1" />
-      <recent name="D:\Y2_Plus\SpringCloud_1\member\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -532,8 +644,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZookeeperOrderApplication">
-    <configuration name="EurekaServer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
+    <configuration name="EurekaServer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-server1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xrz.springcloud_1.eurekaserver1.EurekaServer1Application" />
       <method v="2">
@@ -547,58 +659,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="member" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xrz.springcloud_1.member.MemberApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZookeeperMember2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="zookeeper_member2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xrz.springcloud_1.zookeeper_member2.ZookeeperMember2Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZookeeperMemberApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="zookeeper_member2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xrz.springcloud_1.zookeeper_member2.ZookeeperMemberApplication2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZookeeperMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="zookeeper_member" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xrz.springcloud_1.zookeeper_member.ZookeeperMemberApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZookeeperOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="zookeeper-order" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xrz.springcloud_1.zookeeperorder.ZookeeperOrderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZookeeperServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="zookeeper-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xrz.springcloud_1.zookeeperserver.ZookeeperServerApplication" />
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xrz.springcloud_1.order.OrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.MemberApplication" />
       <item itemvalue="Spring Boot.EurekaServer1Application" />
-      <item itemvalue="Spring Boot.ZookeeperServerApplication" />
-      <item itemvalue="Spring Boot.ZookeeperMemberApplication" />
-      <item itemvalue="Spring Boot.ZookeeperMember2Application" />
-      <item itemvalue="Spring Boot.ZookeeperMemberApplication (1)" />
-      <item itemvalue="Spring Boot.ZookeeperOrderApplication" />
+      <item itemvalue="Spring Boot.MemberApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.EurekaServer1Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -618,18 +705,20 @@
       <workItem from="1555526883447" duration="2211000" />
       <workItem from="1555569561122" duration="1837000" />
       <workItem from="1555595201023" duration="2584000" />
-      <workItem from="1555598491909" duration="2959000" />
+      <workItem from="1555598491909" duration="3780000" />
+      <workItem from="1555603835241" duration="125000" />
+      <workItem from="1555644873243" duration="2679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23545000" />
+    <option name="totallyTimeSpent" value="27170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24195279" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25053647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -638,7 +727,7 @@
       <window_info active="true" id="ZooKeeper" order="6" visible="true" weight="0.21405579" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6219239" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37472036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -646,7 +735,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.66293395" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.6621924" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32997763" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -705,63 +794,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="104" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member/src/main/java/cn/xrz/springcloud_1/member/api/controller/MemberApiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/cn/xrz/springcloud_1/eurekaserver/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member/src/main/java/cn/xrz/springcloud_1/member/MemberApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/java/cn/xrz/springcloud_1/eurekaserver1/EurekaServer1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zookeeper-server/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/member/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="40" selection-start-line="40" selection-end-line="49" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-zookeeper-discovery/2.1.1.RELEASE/spring-cloud-starter-zookeeper-discovery-2.1.1.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -2332,17 +2365,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper_member2/src/main/java/cn/xrz/springcloud_1/zookeeper_member2/ZookeeperMember2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper_member2/src/main/java/cn/xrz/springcloud_1/zookeeper_member2/ZookeeperMember2Application.java" />
     <entry file="file://$PROJECT_DIR$/zookeeper_member2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1456">
@@ -2371,13 +2394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/annotation/Value.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -2399,18 +2415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper_member/src/main/java/cn/xrz/springcloud_1/zookeeper_member/ZookeeperMemberApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zookeeper_member2/src/main/java/cn/xrz/springcloud_1/zookeeper_member2/ZookeeperMemberApplication2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -2420,8 +2424,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zookeeper-order/src/main/java/cn/xrz/springcloud_1/zookeeperorder/ZookeeperOrderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="396">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper_member/src/main/java/cn/xrz/springcloud_1/zookeeper_member/ZookeeperMemberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="73" selection-start-line="16" selection-start-column="2" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="104" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/cn/xrz/springcloud_1/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/java/cn/xrz/springcloud_1/eurekaserver1/EurekaServer1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/src/main/java/cn/xrz/springcloud_1/member/api/controller/MemberApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/src/main/java/cn/xrz/springcloud_1/member/MemberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/cn/xrz/springcloud_1/order/api/controller/OrderApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/cn/xrz/springcloud_1/order/OrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/cn/xrz/springcloud_1/order/feign/MemberFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
